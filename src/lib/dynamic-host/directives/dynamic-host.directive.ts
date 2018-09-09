@@ -47,7 +47,7 @@ export class DynamicHostDirective implements OnInit {
         const factory: any = this.dynamicHostConfig.factory ? this.dynamicHostConfig.factory : this.getFactory(this.dynamicHostConfig.selector);
         
         if (!factory) {
-            console.warn(`[my-dynamic-host] Directive => Could not get the factory of the component. Are you sure to provide a valid 'dynamicHostConfig.componentFactory' or correctly exported as entry component 'dynamicHostConfig.selector'?`);
+            console.warn(`[my-dynamic-host] Directive => Could not get the factory of the component. Please be sure to place component in 'entryComponents'.`);
             return;
         }
         
