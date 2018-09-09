@@ -1,7 +1,11 @@
 {
 	"name": "ngx-dynamic-host",
-	"version": "1.0.7",
+	"version": "1.0.8",
 	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/oktykrk/ngx-dynamic-host.git"
+	},
 	"keywords": [
 		"ng",
 		"ngx",
@@ -21,7 +25,7 @@
 		"e2e": "ng e2e"
 	},
 	"private": false,
-	"peerDependencies": {
+	"dependencies": {
 		"@angular/animations": "^6.1.0",
 		"@angular/common": "^6.1.0",
 		"@angular/compiler": "^6.1.0",
@@ -56,5 +60,6 @@
 		"ts-node": "~5.0.1",
 		"tslint": "~5.9.1",
 		"typescript": "~2.7.2"
-	}
+	},
+	"whitelistedNonPeerDependencies": ["."]
 }
