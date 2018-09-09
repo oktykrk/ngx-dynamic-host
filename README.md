@@ -23,7 +23,7 @@ imports: [
 ```
 <ng-template ngx-dynamic-host [dynamicHostConfig]="{ selector: '{selectorOfTargetComponent}' }"></ng-template>
 ```
-
+***WARNING - Be sure to add your component to 'entryComponents'.
 ## Configuration
 
 ```
